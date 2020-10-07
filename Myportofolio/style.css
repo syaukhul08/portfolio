@@ -1,0 +1,39 @@
+.nav-link {
+        margin-right: 30px;
+}
+
+
+.navbar-brand h1 {
+    color:  rgba(182, 35, 35, 0.911);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgba(182, 35, 35, 0.911);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -6px;
+}
+
+
+.jumbotron {
+    background-image: url(space.jpg);
+    background-size: cover;
+}
+
+.jumbotron .container {
+    color: white;
+}
+
+.container hr {
+    width: 250px;
+    border-top: 3px solid #999999;
+}
+
+section {
+    min-height: 420px;
+}
+
